@@ -12,3 +12,4 @@ Git is free software distributed under the GPL
 test
 sdadklaljda
 creating a new branch is quick
+creating a new branch is quick and simple
