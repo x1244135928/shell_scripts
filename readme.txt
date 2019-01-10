@@ -1,4 +1,5 @@
 git is a version control system
+
 git is free software
 Git is a distributed version control system.
 Git is free software distributed under the GPL
@@ -15,3 +16,12 @@ creating a new branch is quick
 create a new bran is quick & simple
 creating a new branch is quick and simple
 这个是主分支
+=======
+creating a new branch is quick and simple01
+creating a new branch is quick and simple02
+creating a new branch is quick and simple03
+creating a new branch is quick and simple04
+creating a new branch is quick and simple05
+creating a new branch is quick and simple06
+
+>>>>>>> feature1
