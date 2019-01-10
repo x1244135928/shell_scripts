@@ -1,0 +1,15 @@
+#!/usr/bin/expect
+
+set timeout 5
+
+spawn ssh -l root 10.1.28.40
+
+expect "(yes/no)?"
+
+send "yes\r"
+
+expect "password:"
+
+send "lsh@2018\r"
+
+interact

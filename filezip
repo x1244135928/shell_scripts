@@ -1,0 +1,24 @@
+#!/bin/sh
+
+ftype=`file "$1"`
+
+case "$ftype" in
+
+    "$1: Zip archive"*)
+
+         echo "$1 is unzip"
+         unzip $1    ;;
+
+    "$1: gzip compressed"*)
+
+         echo "$1 is gunzip";;
+
+    "$1: bzip2 compressed"*)
+
+         echo "$1 is bunzip2";;
+ 
+    *)
+
+         echo "File $1 can not be uncompressd";;
+
+esac

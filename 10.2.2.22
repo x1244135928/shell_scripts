@@ -1,0 +1,15 @@
+#!/usr/bin/expect
+
+set timeout 2
+
+spawn ssh -l root 10.2.2.22
+
+expect "(yes/no)?"
+
+send "yes\r"
+
+expect "password:"
+
+send "Mast4adm#1\r"
+
+interact
